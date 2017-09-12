@@ -1,0 +1,36 @@
+C:\Users\Igor\Desktop\Centro Universitário Mustache\bin\mysql.data.dll
+C:\Users\Igor\Desktop\Centro Universitário Mustache\bin\Newtonsoft.Json.dll
+C:\Users\Igor\Desktop\Centro Universitário Mustache\bin\System.Net.Http.dll
+C:\Users\Igor\Desktop\Centro Universitário Mustache\bin\System.Net.Http.Formatting.dll
+C:\Users\Igor\Desktop\Centro Universitário Mustache\bin\System.Net.Http.WebRequest.dll
+C:\Users\Igor\Desktop\Centro Universitário Mustache\bin\System.Web.Http.dll
+C:\Users\Igor\Desktop\Centro Universitário Mustache\bin\System.Web.Http.WebHost.dll
+C:\Users\Igor\Desktop\Centro Universitário Mustache\bin\Newtonsoft.Json.xml
+C:\Users\Igor\Desktop\Centro Universitário Mustache\bin\System.Net.Http.xml
+C:\Users\Igor\Desktop\Centro Universitário Mustache\bin\System.Net.Http.Formatting.xml
+C:\Users\Igor\Desktop\Centro Universitário Mustache\bin\System.Net.Http.WebRequest.xml
+C:\Users\Igor\Desktop\Centro Universitário Mustache\bin\System.Web.Http.xml
+C:\Users\Igor\Desktop\Centro Universitário Mustache\bin\System.Web.Http.WebHost.xml
+C:\Users\Igor\Desktop\Centro Universitário Mustache\obj\Debug\Mustache.WebUI.csprojResolveAssemblyReference.cache
+C:\Users\Igor\Desktop\Centro Universitário Mustache\obj\Debug\Mustache.WebUI.dll
+C:\Users\Igor\Desktop\Centro Universitário Mustache\obj\Debug\Mustache.WebUI.pdb
+C:\Users\Igor\Desktop\Centro Universitário Mustache\bin\Mustache.WebUI.dll
+C:\Users\Igor\Desktop\Centro Universitário Mustache\bin\Mustache.WebUI.pdb
+E:\Google Drive\Coisas Pessoais\TCC\TCC Puc Minas\Centro Universitário Mustache\bin\Mustache.WebUI.dll
+E:\Google Drive\Coisas Pessoais\TCC\TCC Puc Minas\Centro Universitário Mustache\bin\Mustache.WebUI.pdb
+E:\Google Drive\Coisas Pessoais\TCC\TCC Puc Minas\Centro Universitário Mustache\bin\mysql.data.dll
+E:\Google Drive\Coisas Pessoais\TCC\TCC Puc Minas\Centro Universitário Mustache\bin\Newtonsoft.Json.dll
+E:\Google Drive\Coisas Pessoais\TCC\TCC Puc Minas\Centro Universitário Mustache\bin\System.Net.Http.dll
+E:\Google Drive\Coisas Pessoais\TCC\TCC Puc Minas\Centro Universitário Mustache\bin\System.Net.Http.Formatting.dll
+E:\Google Drive\Coisas Pessoais\TCC\TCC Puc Minas\Centro Universitário Mustache\bin\System.Net.Http.WebRequest.dll
+E:\Google Drive\Coisas Pessoais\TCC\TCC Puc Minas\Centro Universitário Mustache\bin\System.Web.Http.dll
+E:\Google Drive\Coisas Pessoais\TCC\TCC Puc Minas\Centro Universitário Mustache\bin\System.Web.Http.WebHost.dll
+E:\Google Drive\Coisas Pessoais\TCC\TCC Puc Minas\Centro Universitário Mustache\bin\Newtonsoft.Json.xml
+E:\Google Drive\Coisas Pessoais\TCC\TCC Puc Minas\Centro Universitário Mustache\bin\System.Net.Http.xml
+E:\Google Drive\Coisas Pessoais\TCC\TCC Puc Minas\Centro Universitário Mustache\bin\System.Net.Http.Formatting.xml
+E:\Google Drive\Coisas Pessoais\TCC\TCC Puc Minas\Centro Universitário Mustache\bin\System.Net.Http.WebRequest.xml
+E:\Google Drive\Coisas Pessoais\TCC\TCC Puc Minas\Centro Universitário Mustache\bin\System.Web.Http.xml
+E:\Google Drive\Coisas Pessoais\TCC\TCC Puc Minas\Centro Universitário Mustache\bin\System.Web.Http.WebHost.xml
+E:\Google Drive\Coisas Pessoais\TCC\TCC Puc Minas\Centro Universitário Mustache\obj\Debug\Mustache.WebUI.csprojResolveAssemblyReference.cache
+E:\Google Drive\Coisas Pessoais\TCC\TCC Puc Minas\Centro Universitário Mustache\obj\Debug\Mustache.WebUI.dll
+E:\Google Drive\Coisas Pessoais\TCC\TCC Puc Minas\Centro Universitário Mustache\obj\Debug\Mustache.WebUI.pdb

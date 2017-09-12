@@ -1,0 +1,38 @@
+User-agent: *
+
+# Paths
+Disallow: /DLLs/
+Disallow: /Mustache.WebUI/backoffice/
+Disallow: /Mustache.WebUI/bin/
+Disallow: /Mustache.WebUI/css/
+Disallow: /Mustache.WebUI/fancybox/
+Disallow: /Mustache.WebUI/fonts/
+Disallow: /Mustache.WebUI/images/
+Disallow: /Mustache.WebUI/js/
+Disallow: /Mustache.WebUI/layerslider/
+Disallow: /Mustache.WebUI/megafolio/
+Disallow: /Mustache.WebUI/obj/
+Disallow: /Mustache.WebUI/packages/
+Disallow: /Mustache.WebUI/plugin/
+Disallow: /Mustache.WebUI/Properties/
+
+# Files
+Disallow: /Mustache.WebUI/ImageHandler.ashx
+Disallow: /Mustache.WebUI/packages.config
+Disallow: /Mustache.WebUI/web.config
+Disallow: /Mustache.WebUI/UpgradeLog.htm
+Allow: /Mustache.WebUI/como-comprar.aspx
+Allow: /Mustache.WebUI/contato.aspx
+Allow: /Mustache.WebUI/diferenciais.aspx
+Allow: /Mustache.WebUI/equipe.aspx
+Allow: /Mustache.WebUI/estampas.aspx
+Allow: /Mustache.WebUI/index.aspx
+Allow: /Mustache.WebUI/missao.aspx
+Allow: /Mustache.WebUI/nossa-historia.aspx
+Allow: /Mustache.WebUI/noticias.aspx
+Allow: /Mustache.WebUI/produto.aspx
+Allow: /Mustache.WebUI/projetos.aspx
+Allow: /Mustache.WebUI/valores.aspx
+Allow: /Mustache.WebUI/visao.aspx
+
+
