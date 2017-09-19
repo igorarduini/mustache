@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="f952c78a-30ca-414a-8674-6b7eedaeb263" name="Diagrama de Componentes Detalhado" linkedPackageId="e12041c7-7131-4550-9e6a-546a4fddc924" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
+  <ownedCommentsInternal>
+    <comment Id="e2b8176d-3707-4052-8ce2-d65df51e0286">
+      <elementDefinition Id="5eb06a8c-fae5-4c67-b714-a1f8bbfffb32" />
+      <body>Controladores que farão a ponte entre as páginas HTML e o backend.</body>
+    </comment>
+    <comment Id="f680d056-ab97-42f4-ba6b-ecb642cf5263">
+      <elementDefinition Id="9cedb997-174c-4861-8807-b6369dc229a3" />
+      <body>CodeBehind receberá a requisição feita pelo frontend.</body>
+    </comment>
+  </ownedCommentsInternal>
+  <packagedElements>
+    <componentModelHasComponents>
+      <component Id="315f3c55-ef29-482f-92a3-d988dd06f045" name="Módulo Administrativo" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="2576df3e-90c4-4c6a-b0e9-02a294b8c928" />
+        <suppliersInternal>
+          <dependency Id="787d4e50-ccd1-4b06-bcba-9bc3afb031d5">
+            <componentMoniker Id="52db862b-0ce7-4a39-9a22-cff644b4ec7f" LastKnownName="Controladores" />
+            <elementDefinition Id="e5c6ca32-1cd9-4931-9ed8-a43d6fd7fb9b" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="3a4e682f-74bb-46ec-afd0-3560c4017cfc" name="Módulo Aluno" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="001f1ee6-3f6f-4915-835e-3c14e1397c40" />
+        <suppliersInternal>
+          <dependency Id="83bd4588-5223-43a0-979f-d50178290969">
+            <componentMoniker Id="52db862b-0ce7-4a39-9a22-cff644b4ec7f" LastKnownName="Controladores" />
+            <elementDefinition Id="45b892ed-f890-472e-ad04-241819a26965" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="0b198dac-f3d2-437c-b98c-385fe19497d7" name="Módulo Professor" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="fec5b521-6076-4d47-984f-2b8d0c54ff10" />
+        <suppliersInternal>
+          <dependency Id="08bee6d7-8ccf-4922-983a-fe19dc1c8155">
+            <componentMoniker Id="52db862b-0ce7-4a39-9a22-cff644b4ec7f" LastKnownName="Controladores" />
+            <elementDefinition Id="1b128e1e-e6d0-44b2-a3a2-0a37d0b5a65b" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="f751503a-bc88-4811-a997-8df20cd4604f" name="Módulo Relatório" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="867ac9a6-dc0f-48e3-b70e-7dd80592009c" />
+        <suppliersInternal>
+          <dependency Id="bfbae2fd-f125-45ae-98f9-0b436002b4d1">
+            <componentMoniker Id="52db862b-0ce7-4a39-9a22-cff644b4ec7f" LastKnownName="Controladores" />
+            <elementDefinition Id="8dc3c19e-f8ff-4c1e-915d-385ff590f920" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="52db862b-0ce7-4a39-9a22-cff644b4ec7f" name="Controladores" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="35a9d0b3-c99c-4200-b7a6-b88b28cd2d23" />
+        <suppliersInternal>
+          <dependency Id="5036f4e1-811b-40d0-a59f-6f3cac4c28f2">
+            <componentMoniker Id="cfee26e8-202a-4df1-9c1e-6b846f19b93e" LastKnownName="CodeBehind" />
+            <elementDefinition Id="93d6aa4d-bd74-4354-9379-f445f0fa6a09" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="ea7cc30e-e684-42a8-938f-b2db112239db" name="Dashboard" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0763b984-61d6-4ce3-a5a3-5699efa340d7" />
+        <suppliersInternal>
+          <dependency Id="0a0dc2b2-c594-45d9-930d-81ac268885c3">
+            <componentMoniker Id="52db862b-0ce7-4a39-9a22-cff644b4ec7f" LastKnownName="Controladores" />
+            <elementDefinition Id="b89aa668-5de0-45ed-88cb-6986b2e72d49" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <requiredInterface Id="cf438ad2-3277-44e6-911e-6c8296035f04" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="2c239896-b182-4047-ba41-483313faf37e" />
+            <suppliersInternal>
+              <dependency Id="e7466ef9-674e-46bf-9c5a-a32e32b70187">
+                <providedInterfaceMoniker Id="32ba337f-7540-4364-849c-ae0937ebc6be" LastKnownName="Port1" />
+                <elementDefinition Id="8c7cb3bf-6bbb-4e0d-84c8-ab2d1a81f702" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker Id="3fc842a3-415a-4936-b17b-0fb7e250d739" LastKnownName="Censo" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="cfee26e8-202a-4df1-9c1e-6b846f19b93e" name="CodeBehind" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="db006819-f589-437e-a306-fc4a2c684151" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="eb27a8e2-cf22-4d5b-9638-00d04f23f813" name="MEC" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="830e7af8-34a8-485c-887d-8b90220c96dc" />
+        <ownedAttributesInternal>
+          <providedInterface Id="32ba337f-7540-4364-849c-ae0937ebc6be" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="19b8fdc9-2b43-41c4-a54e-590db65a1fed" />
+            <type_NamedElement>
+              <interfaceMoniker Id="f88e0103-5781-411c-affd-638481b79223" LastKnownName="Informações de Censo" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <modelContainsNamedElements>
+      <Interface Id="f88e0103-5781-411c-affd-638481b79223" name="Informações de Censo" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d84be549-f518-4263-b348-4dec094984f5" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="3fc842a3-415a-4936-b17b-0fb7e250d739" name="Censo" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="782cefa0-5023-4b07-9ce8-e21b9f79ba15" />
+      </Interface>
+    </modelContainsNamedElements>
+  </packagedElements>
+  <package Id="e12041c7-7131-4550-9e6a-546a4fddc924" name="DiagramaComponente">
+    <elementDefinition Id="23c33e94-b98f-4983-93e8-8be141a55712" />
+    <profileInstances>
+      <packageHasProfileInstances Id="1d21f9f4-b1cc-4f46-ade2-4252b51d59e5">
+        <profileInstance Id="2c562835-b072-4a0a-8e05-cd0f6afd2154" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="38c5abcb-78eb-4b19-93c1-f70850b74e23">
+        <profileInstance Id="93c8d7ec-8a6d-49ce-8d11-ac3cebd6d700" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</componentModel>

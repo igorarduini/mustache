@@ -49,6 +49,42 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>packages\MySql.Data.6.4.3\lib\net40\mysql.data.dll</HintPath>
     </Reference>
+    <Reference Include="Nevron.Nov.Barcode">
+      <HintPath>packages\Nevron.Nov.Diagram.17.5.29.12\lib\net40\Nevron.Nov.Barcode.dll</HintPath>
+    </Reference>
+    <Reference Include="Nevron.Nov.Chart">
+      <HintPath>packages\Nevron.Nov.Diagram.17.5.29.12\lib\net40\Nevron.Nov.Chart.dll</HintPath>
+    </Reference>
+    <Reference Include="Nevron.Nov.Diagram">
+      <HintPath>packages\Nevron.Nov.Diagram.17.5.29.12\lib\net40\Nevron.Nov.Diagram.dll</HintPath>
+    </Reference>
+    <Reference Include="Nevron.Nov.Grid">
+      <HintPath>packages\Nevron.Nov.Diagram.17.5.29.12\lib\net40\Nevron.Nov.Grid.dll</HintPath>
+    </Reference>
+    <Reference Include="Nevron.Nov.Host.WinBase">
+      <HintPath>packages\Nevron.Nov.Diagram.17.5.29.12\lib\net40\Nevron.Nov.Host.WinBase.dll</HintPath>
+    </Reference>
+    <Reference Include="Nevron.Nov.Host.WinForm">
+      <HintPath>packages\Nevron.Nov.Diagram.17.5.29.12\lib\net40\Nevron.Nov.Host.WinForm.dll</HintPath>
+    </Reference>
+    <Reference Include="Nevron.Nov.Host.Wpf">
+      <HintPath>packages\Nevron.Nov.Diagram.17.5.29.12\lib\net40\Nevron.Nov.Host.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Nevron.Nov.Presentation">
+      <HintPath>packages\Nevron.Nov.Diagram.17.5.29.12\lib\net40\Nevron.Nov.Presentation.dll</HintPath>
+    </Reference>
+    <Reference Include="Nevron.Nov.Schedule">
+      <HintPath>packages\Nevron.Nov.Diagram.17.5.29.12\lib\net40\Nevron.Nov.Schedule.dll</HintPath>
+    </Reference>
+    <Reference Include="Nevron.Nov.Text">
+      <HintPath>packages\Nevron.Nov.Diagram.17.5.29.12\lib\net40\Nevron.Nov.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="Nevron.Nov.WinFormControls">
+      <HintPath>packages\Nevron.Nov.Diagram.17.5.29.12\lib\net40\Nevron.Nov.WinFormControls.dll</HintPath>
+    </Reference>
+    <Reference Include="Nevron.Nov.WpfControls">
+      <HintPath>packages\Nevron.Nov.Diagram.17.5.29.12\lib\net40\Nevron.Nov.WpfControls.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll</HintPath>
@@ -140,6 +176,7 @@
     <Content Include="backoffice\dist\js\controller\alterarsenhactrl.js" />
     <Content Include="backoffice\dist\js\controller\alunoctrl.js" />
     <Content Include="backoffice\dist\js\controller\cursoctrl.js" />
+    <Content Include="backoffice\dist\js\controller\dashboardctrl.js" />
     <Content Include="backoffice\dist\js\controller\indexctrl.js" />
     <Content Include="backoffice\dist\js\controller\loginctrl.js" />
     <Content Include="backoffice\dist\js\wizard.js" />
@@ -801,6 +838,7 @@
     <Content Include="backoffice\plugins\iCheck\square\yellow.css" />
     <Content Include="backoffice\plugins\iCheck\square\yellow.png" />
     <Content Include="backoffice\plugins\iCheck\square\_all.css" />
+    <Content Include="backoffice\plugins\input-mask\formatter-currency.js" />
     <Content Include="backoffice\plugins\input-mask\jquery.inputmask.date.extensions.js" />
     <Content Include="backoffice\plugins\input-mask\jquery.inputmask.extensions.js" />
     <Content Include="backoffice\plugins\input-mask\jquery.inputmask.js" />
@@ -822,6 +860,7 @@
     <Content Include="backoffice\plugins\jvectormap\jquery-jvectormap-1.2.2.min.js" />
     <Content Include="backoffice\plugins\jvectormap\jquery-jvectormap-world-mill-en.js" />
     <Content Include="backoffice\plugins\knob\jquery.knob.js" />
+    <Content Include="backoffice\plugins\moment\moment.min.js" />
     <Content Include="backoffice\plugins\morris\morris.css" />
     <Content Include="backoffice\plugins\morris\morris.js" />
     <Content Include="backoffice\plugins\morris\morris.min.js" />
@@ -841,9 +880,54 @@
     <Content Include="backoffice\views\login.html" />
     <Content Include="backoffice\views\starter.aspx" />
     <Content Include="backoffice\views\aluno.aspx" />
+    <Content Include="bin\Mustache.WebUI.dll" />
+    <Content Include="bin\Mustache.WebUI.pdb" />
+    <Content Include="bin\mysql.data.dll" />
+    <Content Include="bin\Nevron.Nov.Barcode.dll" />
+    <Content Include="bin\Nevron.Nov.Barcode.xml" />
+    <Content Include="bin\Nevron.Nov.Chart.dll" />
+    <Content Include="bin\Nevron.Nov.Chart.xml" />
+    <Content Include="bin\Nevron.Nov.Diagram.dll" />
+    <Content Include="bin\Nevron.Nov.Diagram.xml" />
+    <Content Include="bin\Nevron.Nov.Grid.dll" />
+    <Content Include="bin\Nevron.Nov.Grid.xml" />
+    <Content Include="bin\Nevron.Nov.Host.WinBase.dll" />
+    <Content Include="bin\Nevron.Nov.Host.WinBase.xml" />
+    <Content Include="bin\Nevron.Nov.Host.WinForm.dll" />
+    <Content Include="bin\Nevron.Nov.Host.WinForm.xml" />
+    <Content Include="bin\Nevron.Nov.Host.Wpf.dll" />
+    <Content Include="bin\Nevron.Nov.Host.Wpf.xml" />
+    <Content Include="bin\Nevron.Nov.Presentation.dll" />
+    <Content Include="bin\Nevron.Nov.Presentation.xml" />
+    <Content Include="bin\Nevron.Nov.Schedule.dll" />
+    <Content Include="bin\Nevron.Nov.Schedule.xml" />
+    <Content Include="bin\Nevron.Nov.Text.dll" />
+    <Content Include="bin\Nevron.Nov.Text.xml" />
+    <Content Include="bin\Nevron.Nov.WinFormControls.dll" />
+    <Content Include="bin\Nevron.Nov.WinFormControls.xml" />
+    <Content Include="bin\Nevron.Nov.WpfControls.dll" />
+    <Content Include="bin\Nevron.Nov.WpfControls.xml" />
+    <Content Include="bin\Newtonsoft.Json.dll" />
+    <Content Include="bin\Newtonsoft.Json.xml" />
+    <Content Include="bin\System.Net.Http.dll" />
+    <Content Include="bin\System.Net.Http.Formatting.dll" />
+    <Content Include="bin\System.Net.Http.Formatting.xml" />
+    <Content Include="bin\System.Net.Http.WebRequest.dll" />
+    <Content Include="bin\System.Net.Http.WebRequest.xml" />
+    <Content Include="bin\System.Net.Http.xml" />
+    <Content Include="bin\System.Web.Http.dll" />
+    <Content Include="bin\System.Web.Http.WebHost.dll" />
+    <Content Include="bin\System.Web.Http.WebHost.xml" />
+    <Content Include="bin\System.Web.Http.xml" />
     <Content Include="css\animate.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\color-switcher.css" />
+    <Content Include="css\colors\blue.css" />
+    <Content Include="css\colors\green.css" />
+    <Content Include="css\colors\lightgreen.css" />
+    <Content Include="css\colors\orange.css" />
+    <Content Include="css\colors\pink.css" />
+    <Content Include="css\colors\preset.css" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="css\line-icons.css" />
     <Content Include="css\magnific-popup.css" />
@@ -853,6 +937,7 @@
     <Content Include="css\normalize.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\Linearicons-Free.svg" />
+    <Content Include="img\background-login.jpg" />
     <Content Include="img\bg1.jpg" />
     <Content Include="img\bg_2.jpg" />
     <Content Include="img\blog\img1.jpg" />
@@ -873,10 +958,32 @@
     <Content Include="index.aspx" />
     <Content Include="js\config.js" />
     <Content Include="js\controller\indexctrl.js" />
-    <Content Include="js\lib\jquery.js" />
+    <Content Include="js\directive.js" />
+    <Content Include="js\lib\blockUI.js" />
+    <Content Include="js\lib\bootstrap.min.js" />
+    <Content Include="js\lib\classie.js" />
+    <Content Include="js\lib\color-switcher.js" />
+    <Content Include="js\lib\contact-form-script.js" />
+    <Content Include="js\lib\form-validator.min.js" />
+    <Content Include="js\lib\jquery-min.js" />
+    <Content Include="js\lib\jquery.counterup.min.js" />
+    <Content Include="js\lib\jquery.magnific-popup.min.js" />
+    <Content Include="js\lib\jquery.mixitup.js" />
+    <Content Include="js\lib\jquery.nav.js" />
+    <Content Include="js\lib\jquery.stellar.min.js" />
+    <Content Include="js\lib\jquery.vide.js" />
+    <Content Include="js\lib\main.js" />
+    <Content Include="js\lib\menu.js" />
+    <Content Include="js\lib\mixitup.min.js" />
+    <Content Include="js\lib\nivo-lightbox.js" />
+    <Content Include="js\lib\owl.carousel.min.js" />
+    <Content Include="js\lib\smooth-on-scroll.js" />
+    <Content Include="js\lib\smooth-scroll.js" />
+    <Content Include="js\lib\tether.min.js" />
+    <Content Include="js\lib\waypoints.min.js" />
+    <Content Include="js\lib\wow.js" />
     <Content Include="Mustache.WebUI.Publish.xml" />
     <Content Include="Mustache.WebUI.sdf" />
-    <Content Include="css\images\loading.gif" />
     <Content Include="css\owl.carousel.css" />
     <Content Include="css\owl.theme.css" />
     <Content Include="css\responsive.css" />
@@ -1002,10 +1109,14 @@
     <Content Include="img\portfolio\.DS_Store" />
     <Content Include="Mustache.WebUI.suo" />
     <Content Include="Mustache.WebUI.v12.suo" />
+    <Content Include="img\263-863-1-PB.pdf" />
+    <None Include="Properties\PublishProfiles\Profile1.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="backoffice\dist\img\credit\" />
-    <Folder Include="bin\" />
+    <Folder Include="bin\css\fonts\" />
+    <Folder Include="css\fonts\" />
+    <Folder Include="css\images\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

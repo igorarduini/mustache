@@ -23,7 +23,7 @@ namespace Mustache.WebUI.backoffice.views
         [WebMethod]
         public static dynamic DashboardIntegracaoMEC()
         {
-            var url = "https://api.myjson.com/bins/rlfjt";
+            var url = "https://api.myjson.com/bins/z61o5";
             var webrequest = (HttpWebRequest)System.Net.WebRequest.Create(url);
 
             using (var response = webrequest.GetResponse())
